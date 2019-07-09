@@ -5,6 +5,8 @@ int main(){
   int x,y;
   char c[20];
 
+  printf("This is dice game.\n");
+
   printf("What is your name?\n");
   scanf("%s",c);
   printf("Hello, %s!\n",c);

@@ -3,6 +3,11 @@
 
 int main(){
   int x,y;
+  char c[20];
+
+  printf("What is your name?\n");
+  scanf("%s",c);
+  printf("Hello, %s!\n",c);
   
   x=rand()%6+1;
   y=rand()%6+1;
@@ -12,8 +17,8 @@ int main(){
   printf("Die 2: %d\n",y);
   printf("Total value: %d\n",x+y);
 
-  if((x+y)>7) printf("You won!\n");
-  else printf("You lose!\n");
+  if((x+y)>7) printf("%s won!\n",c);
+  else printf("%s lost!\n",c);
 
    return 0;
 }

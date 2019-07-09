@@ -3,6 +3,11 @@
 
 int main(){
   int x,y;
+  char c[20];
+
+  printf("What is your name?\n");
+  scanf("%s",c);
+  printf("Hello, %s!\n",c);
   
   x=rand()%6+1;
   y=rand()%6+1;
